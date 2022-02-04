@@ -8,10 +8,10 @@ int main(){
 
     while(t--){
 
-        int n;
-        cin>>n;
+        int n,m;
+        cin>>n>>m;
 
-        vector<int> v{ 6, 2, 5, 5, 4, 5, 6, 3, 7, 6};
+        cout<<n*m<<endl;
         
         
     }
