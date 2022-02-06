@@ -37,7 +37,7 @@ int main(){
                   cout<<"NO"<<endl;}
             
             else{
-                if(count<=k && (k-count)%2 == 0 &&  k-count<=n-count)
+                if(count<=k  &&  k-count<=n-count)
                   cout<<"YES"<<endl;
                 
                 else
