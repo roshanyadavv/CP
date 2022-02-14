@@ -17,27 +17,18 @@ int main() {
             
             long long int a;
             cin>>a;
-            a = i+1 - a;
             v.push_back(a);
-
-            if(a == 0)
-              count++;
         }
         
         for(int i=0; i<n; i++){
-            if(){
-              count 
-            }
-            
-            if(i+1-v[i] == 0){
-              vg.push_back
+
+            op = i + count +1;
+            if(v[i] == op){
+              count++; 
             }
         }
-
-        if(count ==0 )
-           cout<<"0"<<endl;
         
-
+        cout<<count<<endl;
 
 	}
 	return 0;
