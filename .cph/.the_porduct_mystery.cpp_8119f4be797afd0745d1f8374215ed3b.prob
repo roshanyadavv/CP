@@ -1,0 +1,1 @@
+{"name":"Local: the_porduct_mystery","url":"d:\\Github\\CP\\the_porduct_mystery.cpp","tests":[{"id":1645629502125,"input":"2\n2 4\n8 12","output":"2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\the_porduct_mystery.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: black_jack","url":"d:\\Github\\CP\\black_jack.cpp","tests":[{"id":1645628680671,"input":"3\n1 10\n1 5\n4 9\n","output":"10\n-1\n8\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\black_jack.cpp","group":"local","local":true}
