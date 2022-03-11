@@ -4,6 +4,10 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "xstring": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "fstream": "cpp",
+        "limits": "cpp",
+        "utility": "cpp",
+        "cmath": "cpp"
     }
 }

@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 
     int n,m;
+    bool boo = true;
     cin>>n;
     vector<int> v;
     vector<int> ne;
@@ -26,25 +27,36 @@ int main(){
         v1.push_back(b);
     }
 
-    int minn = *min_element(v.begin(), v.end());
-    int min1 = *min_element(v1.begin(), v1.end());
-    
-    for(int i=0; i<n; i++){
-        for(int j=0; j<m; j++){
-        int c = abs(v1[j] - v[i]);
-        ne.push_back(c);
+    sort(v.begin(),v.end());
+    sort(v1.begin(),v1.end());
+
+   
+    for(int i=0; i<m; i++){
+        for(int j=0; j<n; j++){
+            for(int k=0; k<101; k++){
+                if(v[j]+k == v1[i])
+                  ne.push_back(k);
+            }
         }
     }
+    
+   // m = min(m,n);
     sort(ne.begin(), ne.end());
-    int d = min(n,m), count=1;
+
+    vector<int> v2;
 
     for(int i=0; i<ne.size(); i++){
-
-        if(ne[i-1] != ne[i] && ne[i] >= abs(min1-minn) && count<=d){
-            count++;
-            cout<<ne[i]<<" ";
+        if(ne[i-1] != ne[i] && ne[i] >= v1[0]-v[0] && ne[i] <= (v1.back() - v.back())){
+           int d = ne[i];
+           v2.push_back(d);
         }
+    }
 
+    for(int i=0; i<v2.size(); i++){
+        for(int i=0; i<n; i++){
+            
+        }
+        cout<<v2[i]<<" ";
     }
 
     cout<<endl;
