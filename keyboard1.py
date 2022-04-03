@@ -1,18 +1,10 @@
 import keyboard
 keyboard.wait('1')
 a="""
-#include<iostream>
-using namespace std;
-void addition(int *a,int *b)
-{
-cout<<(*a+*b);
-}
-int main()
-{
-int a,b;
-cin>>a>>b;
-addition(&a,&b);
-return 0;
-}
+n=int(input())
+x=1
+for i in range(1,n+1):
+print(x,end=' ')
+x=x*2
 """
 keyboard.write(a)
