@@ -1,0 +1,1 @@
+{"name":"Local: new","url":"d:\\Github\\CP\\new.cpp","tests":[{"id":1655875084335,"input":"eat\nate","output":"anagram"},{"id":1655875204201,"input":"naman\nmanan","output":"anagram"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\new.cpp","group":"local","local":true}
