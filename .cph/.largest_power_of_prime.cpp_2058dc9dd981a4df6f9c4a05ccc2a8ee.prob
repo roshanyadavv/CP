@@ -1,0 +1,1 @@
+{"name":"Local: largest_power_of_prime","url":"d:\\Github\\CP\\largest_power_of_prime.cpp","tests":[{"id":1655878147321,"input":"3\n62 7\n76 2\n3 5","output":"9\n73\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\largest_power_of_prime.cpp","group":"local","local":true}

@@ -9,11 +9,11 @@ int main(){
     int count1=0, count2=0;
     
 
-    if(s1.size() != s2.size())         
+    if(s1.length() != s2.length())         
        cout<<"not anagram"<<endl;
 
     else{ 
-    for(int i=0; i<s1.size(); i++){
+    for(int i=0; i<s1.length(); i++){
         count1 = count1 + int(s1[i]);
         count2 = count2 + int(s2[i]);
     }
