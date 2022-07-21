@@ -1,0 +1,1 @@
+{"name":"Local: true_and_false_paper","url":"d:\\Github\\CP\\true_and_false_paper.cpp","tests":[{"id":1658070689586,"input":"3\n1 1\n50 0\n100 76","output":"0\n50\n24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\true_and_false_paper.cpp","group":"local","local":true}

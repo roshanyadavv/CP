@@ -1,0 +1,1 @@
+{"name":"Local: passes_for_fair","url":"d:\\Github\\CP\\passes_for_fair.cpp","tests":[{"id":1658329062298,"input":"4\n5 8\n6 3\n2 2\n1 2","output":"YES\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\passes_for_fair.cpp","group":"local","local":true}

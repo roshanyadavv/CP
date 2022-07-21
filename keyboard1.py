@@ -1,23 +1,38 @@
 import keyboard
 keyboard.wait('1')
 a="""
-#include<stdio.h>
-int main()
+fstream file;
+file.open("sample.dat",ios::out);
+ofstream outdata;
+int i,j,n,a;
+cin>>n;
+int number[n];
+for (i=0; i<n; ++i)
 {
-   int L,W,H;
-   scanf("%d%d%d",&L,&W,&H);
-  
-   
-   if((L<1 && L>1000) ||(H<1 && H>1000) || (H<1 && H>1000))
-   return 0;
-   
-   if(W==L && H==L) printf("ACCEPTED");
-   else
-   if(W<L || H<L) printf("CHANGE"); 
-   else
-   if(W>L || H>L) printf("CROP");
-  
-  return 0;
+cin>>number[i];
+}
+outdata.open("sample.dat"); 
+for (i=0; i<n; ++i)
+{
+outdata<<number[i]<<endl;
+}
+outdata.close();
+for (i = 0; i < n; i++)
+{
+for (j = 0; j < (n - i - 1); j++)
+{
+if (number[j] > number[j + 1])
+{
+a = number[j];
+number[j] = number[j + 1];
+number[j + 1] = a;
+}
+}
+}
+
+for (i = 0; i < n; i++) 
+{
+cout<<number[i]<<"\n";
 }
 """
 keyboard.write(a)

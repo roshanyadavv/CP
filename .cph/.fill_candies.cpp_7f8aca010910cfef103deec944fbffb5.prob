@@ -1,0 +1,1 @@
+{"name":"Local: fill_candies","url":"d:\\Github\\CP\\fill_candies.cpp","tests":[{"id":1658329265972,"input":"4\n6 2 3\n3 1 2\n8 4 1\n25 4 2","output":"1\n2\n2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\fill_candies.cpp","group":"local","local":true}

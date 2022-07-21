@@ -1,0 +1,1 @@
+{"name":"Local: easy_pronounciation","url":"d:\\Github\\CP\\easy_pronounciation.cpp","tests":[{"id":1658071488865,"input":"5\n5\napple\n15\nschtschurowskia\n6\npolish\n5\ntryst\n3\ncry\n","output":"YES\nNO\nYES\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\easy_pronounciation.cpp","group":"local","local":true}

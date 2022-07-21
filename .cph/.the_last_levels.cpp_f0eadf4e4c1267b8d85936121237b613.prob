@@ -1,0 +1,1 @@
+{"name":"Local: the_last_levels","url":"d:\\Github\\CP\\the_last_levels.cpp","tests":[{"id":1658070929986,"input":"4\n2 12 10\n3 12 10\n7 20 8\n24 45 15","output":"24\n36\n156\n1185"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\the_last_levels.cpp","group":"local","local":true}
