@@ -1,0 +1,1 @@
+{"name":"Local: search_min_and_max_in_bst","url":"d:\\Github\\CP\\search_min_and_max_in_bst.cpp","tests":[{"id":1659094554509,"input":"0","output":"3 25"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\search_min_and_max_in_bst.cpp","group":"local","local":true}

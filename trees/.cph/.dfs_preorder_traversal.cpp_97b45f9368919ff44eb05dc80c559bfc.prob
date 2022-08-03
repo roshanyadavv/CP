@@ -1,0 +1,1 @@
+{"name":"Local: dfs_preorder_traversal","url":"d:\\Github\\CP\\trees\\dfs_preorder_traversal.cpp","tests":[{"id":1659337480913,"input":"","output":"A B C D E F G"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\trees\\dfs_preorder_traversal.cpp","group":"local","local":true}

@@ -19,7 +19,10 @@ int main(){
         n = n/7;
 
         cout<<count+n<<endl;
-
-
+    /*    int a = -25512, b= -18206;
+        int c = -25512-18206;
+        int d = (((b^c)|(a^c))&(-(a^b)))>>15;
+        cout<<d;
+*/
     }
 }

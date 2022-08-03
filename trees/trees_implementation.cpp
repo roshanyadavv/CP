@@ -15,7 +15,7 @@ bstnode* getnewnode(int data){
     return newnode;                              //return the address of new node
 }
 
-bstnode* insert( bstnode* root, int data){
+bstnode* insert( bstnode* root, int data){              //time complexity: O(h)
 
     if(root == NULL){ //EMPTY TREE
       root = getnewnode(data);
@@ -67,3 +67,16 @@ int main(){
     else
        cout<<"not found"<<endl;
 }
+
+
+/*finding height of a binary tree
+
+int findheight(struct node *root){
+      if(root == NULL){
+        RETURN -1;
+      }
+
+      else
+        return max(findheight(root->left), findheight(root->right)) +1;
+}
+*/
