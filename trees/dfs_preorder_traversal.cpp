@@ -40,13 +40,13 @@ int main(){
 
     node* root =NULL;
     
-    root = insert(root, 'F');
-    root = insert(root, 'G');
-    root = insert(root, 'H');
+    root = insert(root, 'A');
     root = insert(root, 'B');
     root = insert(root, 'C');
     root = insert(root, 'D');
     root = insert(root, 'E');
+    root = insert(root, 'F');
+    root = insert(root, 'G');
     
 
     preorder(root);
