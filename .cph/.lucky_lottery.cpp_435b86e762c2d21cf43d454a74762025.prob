@@ -1,0 +1,1 @@
+{"name":"Local: lucky_lottery","url":"d:\\Github\\CP\\lucky_lottery.cpp","tests":[{"id":1665998064553,"input":"8\n1 3 3 3 4 4 4 4","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\lucky_lottery.cpp","group":"local","local":true}

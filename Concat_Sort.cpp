@@ -1,57 +1,46 @@
+
 #include<bits/stdc++.h>
-#define ll long long int
 using namespace std;
 
-int main(){
 
-    long long int t;
-    cin>>t;
-
-    while(t--){
-
-        long long int n, k=0,m=0;
-        cin>>n;
-
-        vector<long long int> v;
-        vector<ll> v1;
-        vector<ll> v2;
-
-        for(long long int i=0; i<n; i++){
-              long long int a;
-              cin>>a;
-              v.push_back(a);
-        }
-        k = v[0];
-
-        for(ll i=0; i<n; i++){
-            
-            if(v[i] <= k){
-                v2.push_back(v1.back());
-                v1.pop_back();
-                v1.push_back(v[i]);
-                k = v[i];
-            }
-            
-            else{
-                v2.push_back(v[i]);
-            }
-        }
-
-        for(ll i=1; i<v2.size(); i++){
-            if(v2[i] < v2[i-1]){
-                m=1;
-                break;
-            }
-        }
-
-        if(m == 1){
-            cout<<"NO"<<endl;
-        }
-
-        else{
-            cout<<"YES"<<endl;
-        }
+vector<int> freq(vector<int> listEle)
+{
+    
+    vector<int> answer, v, v1;
+    int count =1;
+    
+    for(int i=0; i<listEle.size(); i++){
         
+        if(i >0){
+            if(listEle[i] != listEle[i-1]){
+                v.push_back(count);
+                v1.push_back(listEle[i-1]);
+                count = 1;
+            }
+            else{
+                count++;
+            }
+        }
 
+        
     }
+        
+        for(int i=0; i<v.size(); i++){
+            for(int j=0; j<v[i]; j++){
+                answer.push_back(v1[i]);
+            }
+        }
+        return answer;
+    }
+    
+        
+        
+int main() {
+    // Write C++ code here
+    vector<int> listEle{1,2,3,3,4,4,5,5,5,5,6,6,7,8,9,10};
+    vector<int> k = freq(listEle);
+    for(int i=0; i<k.size(); i++){
+        cout<<k[i]<<" ";
+    }
+    return 0;
 }
