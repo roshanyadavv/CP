@@ -1,0 +1,1 @@
+{"name":"Local: composition","url":"d:\\Github\\CP\\trees\\composition.cpp","tests":[{"id":1667365045027,"input":"3\n3\n1 1 1\n1 2 2","output":"1 1 1 1 2 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\trees\\composition.cpp","group":"local","local":true}

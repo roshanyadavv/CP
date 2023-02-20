@@ -1,0 +1,1 @@
+{"name":"Local: sum_of_alternate_level","url":"d:\\Github\\CP\\trees\\sum_of_alternate_level.cpp","tests":[{"id":1667739035218,"input":"3\n1 2 3 4 5 6 7 8 9 -1 -1 -1 -1 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\CP\\trees\\sum_of_alternate_level.cpp","group":"local","local":true}
